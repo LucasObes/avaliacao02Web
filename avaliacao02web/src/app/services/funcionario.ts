@@ -18,9 +18,9 @@ export interface Funcionario {
 })
 
 export class FuncionarioService {
-  private url = '/public/assets/exemploJSON.json';
+  private url = '/browser/assets/exemploJSON.json';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   getFuncionarios(): Observable<Funcionario[]> {
     return this.http.get<Funcionario[]>(this.url);
