@@ -31,7 +31,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets/",
+                "input": "public/assets/",
                 "output": "/assets/"
               }
             ],
@@ -45,7 +45,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/browser/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
