@@ -18,7 +18,7 @@ export interface Funcionario {
 })
 
 export class FuncionarioService {
-  private url = '/browser/assets/exemploJSON.json';
+  private url = 'assets/exemploJSON.json';
 
   constructor(private http: HttpClient) { }
 
